@@ -34,7 +34,7 @@ class calendar_plugin_style extends views_plugin_style {
       }
     }
     if ($granularity) {
-      return $$option_type[$granularity];
+      return ${$option_type[$granularity]};
     }
     return $$option_type;
   }
